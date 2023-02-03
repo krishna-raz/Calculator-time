@@ -1,6 +1,7 @@
 const day = new Date();
 hour = day.getHours();
 minute = day.getMinutes();
+;
 if (minute < 10) {
   minute = "0" + minute;
 
@@ -17,7 +18,7 @@ else if (hour > 12) {
   P = "PM";
 }
 
-const time = hour + ":" + minute + " " + p;
+const time = hour + ":" + minute + " " + P;
 const box = document.getElementById("box");
 box.innerHTML = time;
 
@@ -39,12 +40,11 @@ for (var i = 0; i < buttion.length; i++) {
       document.querySelector('input').value = " ";
 
     }
-   else
+    else
       document.querySelector('input').value += this.innerHTML;
-    
+
   })
 }
-
 
 
 
