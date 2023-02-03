@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Padding and border are included in the element's total width and height */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font: bold 14px Aria, sans-serif;
+}
+
+html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+}
+
+.input1 {
+    width: 90%;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #9dd2ea;
+    background: linear-gradient(#f3f3f3, #f7f7f7);
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 325px;
+    height: auto;
+    text-align: center;
+    margin: 200px auto;
+    padding: 20px 20px 9PX;
+
+    background: #9dd2ea;
+    background: linear-gradient(#9dd2ea, #8bceec);
+    border-radius: 6px;
+    /* Using box shadows to create 3D effects */
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.container h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 1px 0px #009de4;
+    /* margin: 0 0 20px 0; */
+}
+
+.row {
+    text-align: center;
+    margin: auto, 20px;
+
+
+}
+
+.button {}
+
+.row button {
+
+    width: 16%;
+    /* height: 50%; */
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #eac69d;
+    /* background: linear-gradient(#9dd2ea, #8bceec); */
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    color: #fff;
+    border-radius: 17px;
+    text-align: center;
+}
+
+.row button:hover {
+    /* background: #9dd2ea;
+    background: linear-gradient(#df5a26, #2dd620);
+    box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0,0,0,0.2);
+    font-size: 30px;
+    color: #fff; */
+    background: #9c89f6;
+    box-shadow: 0px 4px #6b54d3;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+}
+
+#butt12:hover {
+
+    background: #9c89f6;
+    box-shadow: 0px 4px #6b54d3;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+}
+
+#buttonc:hover {
+
+    background: #9c89f6;
+    box-shadow: 0px 4px #6b54d3;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+}
+
+#butt12 {
+    background: #22c936;
+    box-shadow: 0px 4px #72d354;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+}
+
+#buttonc {
+    background: #f68989;
+    box-shadow: 0px 4px #d38f54;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+}
+
+#button1 {
+    background: #ccf689;
+    box-shadow: 0px 4px #98d354;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+}
+
+.name {
+    /* background-color: #009de4; */
+    width: 40%;
+    margin: 0 auto;
+
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#button1:hover {
+    background: #9c89f6;
+    box-shadow: 0px 4px #6b54d3;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+}
+
+.boc1 p {
+    font-size: 20px;
+}
+
+.boc1 {
+    font-size: 50px;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: -191px;
+    width: 225px;
+    height: auto;
+    padding: 5px;
+    background: #9dd2ea;
+    padding: auto;
+
+    background: linear-gradient(#ac93ca, #ec9b8b);
+    border-radius: 3px;
+
+    box-shadow: 0px 4px #714a8b, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+
+    position: relative;
+
+    animation: mymove 12s infinite;
+
+}
+
+
+
+
+
+
+@keyframes mymove {
+
+    /* 0% {translate: 0px;} */
+    16% {
+        translate: 300px;
+    }
+
+    33% {
+        translate: 300px -500px;
+    }
+
+    /* 40% {translate: 30px -500px;} */
+    50% {
+        translate: 0px -500px;
+    }
+
+    66% {
+        translate: -300px -500px;
+    }
+
+    83% {
+        translate: -300px 0px;
+    }
+
+    100% {
+        translate: 0px 1px;
+    }
+}
